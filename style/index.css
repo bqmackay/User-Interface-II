@@ -41,6 +41,7 @@ nav button.selected {
 
 h1 {
   font-size: 4rem;
+  text-align: center;
 }
 
 #projects {
@@ -74,4 +75,32 @@ footer button {
   margin-top: 20px;
   margin-bottom: 20px;
   align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+
+  .project {
+    flex-basis: 45%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  header {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .top {
+    margin: 0;
+  }
+
+  .project {
+    flex-basis: 45%;
+  }
 }
