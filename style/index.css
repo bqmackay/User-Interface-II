@@ -1,1 +1,77 @@
-/* Add CSS styling here */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav button {
+  width: 5rem;
+  background-color: #bbb;
+  color: #000;
+}
+
+nav button.selected {
+  background-color: #000;
+  color: #bbb;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  background: url("../hero.jpg");
+  height: 50vh;
+  margin: 0 40px;
+}
+
+.top .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-count: 3;
+  margin-top: 20px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  flex-basis: 30%;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer {
+  background-color: #aaa;
+  display: flex;
+  justify-content: center;
+}
+
+footer button {
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
