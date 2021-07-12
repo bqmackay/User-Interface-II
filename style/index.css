@@ -78,21 +78,14 @@ footer button {
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    background-color: blue;
+
+  .project {
+    flex-basis: 45%;
   }
 
-  #projects {
-    column-count: 2;
-  }
 }
 
 @media screen and (max-width: 500px) {
-/* For debugging purposes */
-  body {
-    background-color: red;
-  }
-/* End debugging */
 
   header {
     flex-direction: column;
@@ -101,6 +94,10 @@ footer button {
 
   nav {
     flex-direction: column;
+  }
+
+  .top {
+    margin: 0;
   }
 
   .project {
